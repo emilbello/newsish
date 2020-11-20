@@ -1,0 +1,17 @@
+.header-row {
+    text-align: center;
+    font-weight: lighter;
+    padding: 20px;
+}
+
+.menu-left {
+    text-align: right;
+    font-weight: lighter;
+    padding: 30px;
+}
+
+.menu-right {
+    text-align: left;
+    font-weight: lighter;
+    padding: 30px;
+}
