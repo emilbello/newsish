@@ -1,7 +1,14 @@
+/* Classes */
+
 .header-row {
     text-align: center;
     font-weight: lighter;
     padding: 20px;
+}
+
+.centered {
+    text-align: center;
+    font-weight: lighter;
 }
 
 .menu-left {
@@ -16,6 +23,9 @@
     padding: 30px;
 }
 
+
+/* Hyperlink Style */
+
 a:link {
     color: black;
     background-color: transparent;
@@ -29,7 +39,6 @@ a:visited {
 }
 
 a:hover {
-    color: #808080;
     background-color: transparent;
     text-decoration: none;
     font-style: italic;
