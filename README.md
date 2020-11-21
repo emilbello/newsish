@@ -8,18 +8,21 @@ _Matt Mead_
 
 **Machine Learning Project Overview | Fake News Detector :**
 
-_Using natural language processing and Naive Bayes, this project will analyze a dataset of news articles that have been labeled as ‘unreliable’ or ‘reliable’ and build a model to predict reliability._
+Using natural language processing and Naive Bayes, this project will analyze a dataset of news articles that have been labeled as ‘unreliable’ or ‘reliable’ and build a model to predict **_reliability_**.
 
-_The website will, in addition to describing the methodologies, utilize WordCloud to visualize the words used in determined ‘unreliable’ articles to see which topics are common targets of ‘unreliable news’. Related pairs of words can also be used in scatterplots to show relationships between frequencies and the division between determined ‘reliable’ and ‘unreliable’ articles in the dataset._
+The website will, in addition to describing the methodologies, utilize WordCloud to visualize the words used in determined ‘unreliable’ and 'reliable' articles to see which topics are common targets of both determinations. Related pairs of words can also be used in scatterplots to show relationships between frequencies and the division between determined ‘reliable’ and ‘unreliable’ articles in the dataset.
+
+The site will be able to take user input to run through the machine learning model to determine if it would be considered 'reliable' and 'unreliable' - being visualized by a meter.
 
 **Dataset :** 
 
-_The dataset we've selected is from an InClass Prediction Competition found on [Kaggle.com](https://www.kaggle.com/c/fake-news/data) with 20k+ datapoints. The models attempted were borrowed from those submissions as well as examples from the University of Minnesota Data and Visualization Bootcamp 2020._
+The dataset we've selected is from an _InClass Prediction Competition_ found on [Kaggle.com](https://www.kaggle.com/c/fake-news/data) with 20k+ datapoints. The models attempted were borrowed from those submissions as well as examples from the **_University of Minnesota Data and Visualization Bootcamp 2020_**.
 
 # Models
 
 **Naive Bayes**
-_Describe the model we used and why_
+
+_Describe the model we used and why "We used the Naive Bayes model using Title, Text, and both Title and Text together to explore the different outcomes and accuracy..."_
 
 # Analysis
 
