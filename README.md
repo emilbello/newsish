@@ -28,6 +28,10 @@ _Describe the model we used and why "We used the Naive Bayes model using Title, 
 
 _We used this one as well_
 
+**Combining Models and making the prediction weighing both models**
+
+_Because both models gave some higher percentage of accuracy, we were able to check against each model to make our final prediction, or something_
+
 # Analysis
 
 _This is where we can add our analysis_
