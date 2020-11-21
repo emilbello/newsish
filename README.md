@@ -2,12 +2,9 @@
 
 **Team Members :**
 
-_Emilio Bello_
-
-_Allan Hunt_
-
-_Alex Mogren_
-
+_Emilio Bello_ <br>
+_Allan Hunt_ <br>
+_Alex Mogren_ <br>
 _Matt Mead_
 
 **Machine Learning Project | Fake News Detector :**
