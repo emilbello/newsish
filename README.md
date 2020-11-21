@@ -14,4 +14,4 @@ _The website will, in addition to describing the methodologies, utilize WordClou
 
 **Dataset :** 
 
-_The dataset we've selected is from [Kaggle.com](https://www.kaggle.com/c/fake-news/data) with 20k+ datapoints_
+_The dataset we've selected is from an InClass Prediction Competition found on [Kaggle.com](https://www.kaggle.com/c/fake-news/data) with 20k+ datapoints. The models attempted were borrowed from those submissions as well as examples from the University of Minnesota Data and Visualization Bootcamp 2020._
