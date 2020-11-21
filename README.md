@@ -15,3 +15,12 @@ _The website will, in addition to describing the methodologies, utilize WordClou
 **Dataset :** 
 
 _The dataset we've selected is from an InClass Prediction Competition found on [Kaggle.com](https://www.kaggle.com/c/fake-news/data) with 20k+ datapoints. The models attempted were borrowed from those submissions as well as examples from the University of Minnesota Data and Visualization Bootcamp 2020._
+
+# Models
+
+**Naive Bayes**
+_Describe the model we used and why_
+
+# Analysis
+
+_This is where we can add our analysis_
