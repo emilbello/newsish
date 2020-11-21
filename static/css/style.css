@@ -38,6 +38,11 @@
     padding: 10px;
 }
 
+.bio-body {
+    text-align: justify;
+    font-weight: lighter;
+}
+
 
 /* Hyperlink Style */
 
