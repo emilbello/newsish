@@ -24,6 +24,10 @@ The dataset we've selected is from an _InClass Prediction Competition_ found on 
 
 _Describe the model we used and why "We used the Naive Bayes model using Title, Text, and both Title and Text together to explore the different outcomes and accuracy..."_
 
+**Random Forest**
+
+_We used this one as well_
+
 # Analysis
 
 _This is where we can add our analysis_
