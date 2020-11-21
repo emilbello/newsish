@@ -1,7 +1,6 @@
-# newsish
+# News-ish (_Machine Learning_)
 
-**Team Members :**
-
+**Team Members :** <br>
 _Emilio Bello_ <br>
 _Allan Hunt_ <br>
 _Alex Mogren_ <br>
