@@ -14,13 +14,17 @@
 .menu-left {
     text-align: right;
     font-weight: lighter;
-    padding: 30px;
+    padding: 25px;
 }
 
 .menu-right {
     text-align: left;
     font-weight: lighter;
-    padding: 30px;
+    padding: 25px;
+}
+
+.article {
+    text-align: justify;
 }
 
 .bio-name {
