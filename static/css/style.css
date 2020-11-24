@@ -47,7 +47,21 @@
     font-weight: lighter;
 }
 
+.padding {
+    padding: 10px;
+}
 
+.form-control {
+    text-align: left;
+}
+
+/* IDs */
+
+#filter-btn {
+    background-color: rgb(133, 133, 133);
+    padding: 5px;
+    color: white;
+}
 /* Hyperlink Style */
 
 a:link {
