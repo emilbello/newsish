@@ -9,6 +9,9 @@ user_input.on("submit", runFind);
 
 function runFind() {
     
+    var clearHowReliable = d3.select("#reliability");
+    clearHowReliable.html("");
+
     d3.event.preventDefault();
 
     // Grab user input
@@ -16,7 +19,20 @@ function runFind() {
     var user_article = input_article.property("value");
     console.log(user_article);
 
-    
+    if (user_article === '0') {
+        
+        var howReliable = d3.select("#reliability")
+                    .append("h1")
+                    .classed("centered", true)
+                    .html("FAKE");
+    }
+
+    else {
+        var howReliable = d3.select("#reliability")
+                    .append("h1")
+                    .classed("centered", true)
+                    .html("REAL");
+    }
 
     // var newArticle = d3.select("")
 }
