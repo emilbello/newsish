@@ -22,17 +22,29 @@ function runFind() {
     if (user_article === '0') {
         
         var howReliable = d3.select("#reliability")
-                    .append("h1")
+                    .append("h6")
                     .classed("centered", true)
-                    .html("FAKE");
+                    .html("RELIABLE");
+
+        var meterChange = d3.select("#meter")
+                    .attr('src', '../static/assets/reliable-meter.gif')
+    }
+
+    else if (user_article === '1') {
+        var howReliable = d3.select("#reliability")
+                    .append("h6")
+                    .classed("centered", true)
+                    .html("UNRELIABLE");
+
+        var meterChange = d3.select("#meter")
+                    .attr('src', '../static/assets/unreliable-meter.gif')
     }
 
     else {
         var howReliable = d3.select("#reliability")
-                    .append("h1")
-                    .classed("centered", true)
-                    .html("REAL");
+        .append("h1")
+        .classed("centered", true)
+        .html("NA");
     }
 
-    // var newArticle = d3.select("")
 }
