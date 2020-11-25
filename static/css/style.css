@@ -42,6 +42,14 @@
     padding: 10px;
 }
 
+.centered-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+    width: 100%;
+    /* padding: 10px; */
+}
+
 .bio-body {
     text-align: justify;
     font-weight: lighter;
