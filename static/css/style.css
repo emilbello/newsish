@@ -50,6 +50,12 @@
     /* padding: 10px; */
 }
 
+.read-more {
+    text-align: center;
+    font-weight: lighter;
+    font-size: small;
+}
+
 .bio-body {
     text-align: justify;
     font-weight: lighter;
