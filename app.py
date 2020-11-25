@@ -28,7 +28,7 @@ def run_model():
     # Run the ML model 
     article_status = run_model.get_reliablitiy()
 
-
+    
 @app.route("/about.html")
 def ChartsRoute():
     ''' This function runs when the browser loads the index route. 
