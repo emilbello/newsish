@@ -3,8 +3,6 @@ from flask import Flask
 from flask import render_template 
 from flask import jsonify
 
-# Import username and password 
-# from config import password
 
 # Instantiate the Flask application. (Chocolate cake recipe.)
 # This statement is required for Flask to do its job. 
@@ -29,7 +27,7 @@ def run_model():
 
     # Run the ML model 
     article_status = run_model.get_reliablitiy()
-    
+
 
 @app.route("/about.html")
 def ChartsRoute():
