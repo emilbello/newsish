@@ -16,5 +16,7 @@ function runFind() {
     var user_article = input_article.property("value");
     console.log(user_article);
 
+    
+
     // var newArticle = d3.select("")
 }
