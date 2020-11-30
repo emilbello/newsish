@@ -27,6 +27,10 @@
     text-align: justify;
 }
 
+.thin {
+    font-weight: lighter;
+}
+
 .bio-name {
     text-align: center;
     font-weight: lighter;
