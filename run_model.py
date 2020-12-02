@@ -1,13 +1,4 @@
-import joblib
 from nltk.corpus import stopwords
-
-# loading the model
-joblib_file = "News_ish.pkl"
-loaded_model = joblib.load(joblib_file)
-#loading the vectorizer
-joblib_vector_file = "vectorizer.pkl"
-loaded_vectorizer = joblib.load(joblib_vector_file)
-
 
 # message from get.js is preprocessed and classified in this function
 # input_message = something from get.js
