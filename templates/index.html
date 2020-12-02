@@ -43,15 +43,27 @@
             <h1 class="centered">IS YOUR NEWS RELIABLE?</h1>
             <p class="centered">Inuput your own news article below</p>
             <hr>
-            <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                  <button class="btn btn-outline-secondary" type="button" id="submit">Submit</button>
-                </div>
-                <textarea type="text" class="form-control" id="userarticle" placeholder="Paste your article here"></textarea>
-              </div>
+            <!-- <div class="input-group mb-3">
+                
+                <form action ="{{url_for('run_model')}}" method="post">
+                    <input type="text" class="form-control" id="userarticle" placeholder="Paste your article here" />
+                    <button type ="submit" class ="btn">Submit</button>
+                </form>
+              </div> -->
+
+              <form action ="{{url_for('run_model')}}"method= "post">
+                <input type ="text" name = "user_input"  placeholder = "user_input" required = "required" />
+                
+                <button type ="submit" class ="btn"> Submit</button>
+              </form>
+              <br><br>
+
+              {{ reliability }}
+
+
             <div class="centered">The Machine thinks this article may be:</div>
             <div class="centered" id="reliability">HOW REALIABLE?</div>
-            <div class="centered"><img class="centered-img" id="meter" src="../static/assets/meter-centered.png"></div>
+            <div class="centered"><img class="centered-img" id="meter" src="{{ gifpath }}"></div>
 
         </div>
 
