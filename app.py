@@ -29,10 +29,10 @@ def IndexRoute():
     ''' This function runs when the browser loads the index route. 
         Note that the html file must be located in a folder called templates. '''
      # Open a session, run the query, and then close the session again
+    gifpath = "../static/assets/meter-centered.gif"
+    webpage = render_template("index.html", gifpath = gifpath)
 
-    webpage = render_template("index.html")
-
-    return webpage 
+    return webpage
 
 @app.route('/run_model', methods=['POST'])
 def run_model():
@@ -71,10 +71,10 @@ def run_model():
     
     if result == [0]: 
         reliability = "Reliable"
-        gifpath = "../static/assets/reliable-meter.gif"
+        gifpath = "../static/assets/meter-reliable.gif"
     else :
         reliability = "Unreliable"
-        gifpath = "../static/assets/unreliable-meter.gif"
+        gifpath = "../static/assets/meter-unreliable.gif"
 
 
     # Run the ML model 

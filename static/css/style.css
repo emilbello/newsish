@@ -46,11 +46,17 @@
     padding: 10px;
 }
 
+.form-style {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .centered-img {
     display: block;
     margin-left: auto;
     margin-right: auto;   
-    width: 100%;
+    width: 70%;
     /* padding: 10px; */
 }
 
@@ -75,10 +81,13 @@
 
 /* IDs */
 
-#filter-btn {
-    background-color: rgb(133, 133, 133);
-    padding: 5px;
-    color: white;
+#submit-btn {
+    background-color: rgb(238, 238, 238);
+    padding: 4px;
+    color: rgb(136, 136, 136);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* Hyperlink Style */
 

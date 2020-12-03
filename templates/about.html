@@ -33,19 +33,32 @@
         <!-- PROJECT DESCRIPTION SECTION -->
         <div class="col-12" id="project-description-section"><h2 class="centered">Project description</h2><hr></div>
         <div class="col-12"><h6 class="article thin">&emsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum faucibus at libero sed efficitur. Nunc eros eros, feugiat eget consectetur et, vehicula id libero. Nunc fermentum magna neque, sit amet sollicitudin ex cursus quis. Cras sit amet enim tincidunt, rhoncus justo ac, consequat ante. Nullam vel vulputate tellus. Sed sagittis nisl sit amet eros consequat porta. Quisque placerat ligula nisi, et maximus odio laoreet non. Vivamus ac auctor nisi. <br>
-            &emsp;Duis et odio erat. Pellentesque et velit pharetra, lacinia odio vitae, commodo nulla. Nunc fermentum molestie sem, ut bibendum lorem condimentum quis. Duis finibus lacinia ante. In bibendum elementum volutpat. Maecenas ultrices vehicula sapien, a lacinia nisl convallis luctus. Proin libero est, ultrices et arcu eu, fringilla auctor enim. Proin laoreet erat mattis mi commodo, id commodo nibh scelerisque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et mauris eu odio cursus porttitor vel interdum erat. Morbi vulputate nulla sit amet magna suscipit, ultrices viverra leo posuere.<br><br></h6></div>
+            &emsp;Duis et odio erat. Pellentesque et velit pharetra, lacinia odio vitae, commodo nulla. Nunc fermentum molestie sem, ut bibendum lorem condimentum quis. Duis finibus lacinia ante. In bibendum elementum volutpat. Maecenas ultrices vehicula sapien, a lacinia nisl convallis luctus. Proin libero est, ultrices et arcu eu, fringilla auctor enim. Proin laoreet erat mattis mi commodo, id commodo nibh scelerisque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et mauris eu odio cursus porttitor vel interdum erat. Morbi vulputate nulla sit amet magna suscipit, ultrices viverra leo posuere.</h6><br><br></div>
         
-        <!-- MATRIX SECTION -->
+        
+        <!-- NAÏVE BAYES SECTION -->
+        <div class="col-12" id="naive-bayes-section"><h2 class="centered">Naïve Bayes Model</h2><hr></div>
+        <div class="col-12"><h6 class="article thin">&emsp;Naïve Bayes is a supervised machine learning classifier. Naïve Bayes is notedfor being a fast algorithm and being fairly accurate with predicting outcomes but works very well predicting natural language processing (NLP) problems, our project is a NLP problem. We used Naïve Bayes to predict whether or not a news article can be classified as “reliable” or “unreliable” based on certain texts pertaining to their respective “tag words”. Naïve Bayes combines both probability and Bayes’ Theorem to predict the outcome of a text, then categorizes it to a tag word. A good example of Naïve Bayes classification is categorizing emails into “Primary” or “Spam” inboxes based on the text of the email. To put Naïve Bayes simply, “tag words” is synonymous with “categories” and we are trying to decipher snippets of text that can be put into these categories. For the texts, we used the title of the article, the body of the article and a combination of both the title and body of the article to explore the different outcomes and accuracy.</h6>
+        <br><br>
+
+            <!-- MATRIX SECTION -->
         <div class="col-12" id="matrix-section"><h2 class="centered">Confusion Matrix</h2><hr></div>
-        <div class="col-12"><h6 class="article thin">&emsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum faucibus at libero sed efficitur. Nunc eros eros, feugiat eget consectetur et, vehicula id libero. Nunc fermentum magna neque, sit amet sollicitudin ex cursus quis. Cras sit amet enim tincidunt, rhoncus justo ac, consequat ante. Nullam vel vulputate tellus. Sed sagittis nisl sit amet eros consequat porta. Quisque placerat ligula nisi, et maximus odio laoreet non. Vivamus ac auctor nisi. <br>
-            &emsp;Duis et odio erat. Pellentesque et velit pharetra, lacinia odio vitae, commodo nulla. Nunc fermentum molestie sem, ut bibendum lorem condimentum quis. Duis finibus lacinia ante. In bibendum elementum volutpat. Maecenas ultrices vehicula sapien, a lacinia nisl convallis luctus. Proin libero est, ultrices et arcu eu, fringilla auctor enim. Proin laoreet erat mattis mi commodo, id commodo nibh scelerisque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et mauris eu odio cursus porttitor vel interdum erat. Morbi vulputate nulla sit amet magna suscipit, ultrices viverra leo posuere.<br><br></h6></div>
+        <div class="col-12"><h6 class="article thin">A confusion matrix is a way of testing the performance of a classification algorithm, in our case, we used the confusion matrix to summarize whether our Naïve Bayes classification was performing the way we wanted. We know that from our dataset that there are two classes: “reliable” and “unreliable”, so we used the confusion matrix for a binary classifier, as there are only two predicted classes. Since there are two classes for our project, the 4 quadrants of the confusion matrix model are as follows: True Positives (TP), True Negatives (TN), False Positives (FP) & False Negatives (FN). <br><br> The quadrants are described as: 
+            <ul>
+                <li>True Positives (TP): News articles we predicted as “reliable” and they turned out to be “reliable”</li>
+                <li>True Negatives (TN): News articles we predicted as “unreliable” and they turned out to be “unreliable”</li>
+                <li>False Positives (FP): News articles we predicted as “reliable” and they turned out to be “unreliable”</li>
+                <li>False negatives (FN): News articles we predicted as “unreliable” and they turned out to be “reliable”</li>
+            </ul>
+            <br><br></h6>
+        </div>
             <div class="col-6">
-                <img class="centered-img" src="../static/assets/reliable.jpg" alt="reliable word cloud">
-                <h5 class="centered padding">Matrix : Reliable</h5>
+                <img class="centered-img" src="../static/assets/trainingdata-matrix.jpg" alt="training data matrix">
+                <h5 class="centered padding">Matrix : Training Data</h5>
             </div>
             <div class="col-6">
-                <img class="centered-img" src="../static/assets/unreliable.jpg" alt="unreliable word cloud">
-                <h5 class="centered padding">Matrix : Unreliable</h5>
+                <img class="centered-img" src="../static/assets/testdata-matrix.jpg" alt="training data matrix">
+                <h5 class="centered padding">Matrix : Test Data</h5>
             </div>
             <div class="col-12"><h6 class="article thin">&emsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum faucibus at libero sed efficitur. Nunc eros eros, feugiat eget consectetur et, vehicula id libero. Nunc fermentum magna neque, sit amet sollicitudin ex cursus quis. Cras sit amet enim tincidunt, rhoncus justo ac, consequat ante. Nullam vel vulputate tellus. Sed sagittis nisl sit amet eros consequat porta. Quisque placerat ligula nisi, et maximus odio laoreet non. Vivamus ac auctor nisi. <br>
                 &emsp;Duis et odio erat. Pellentesque et velit pharetra, lacinia odio vitae, commodo nulla. Nunc fermentum molestie sem, ut bibendum lorem condimentum quis. Duis finibus lacinia ante. In bibendum elementum volutpat. Maecenas ultrices vehicula sapien, a lacinia nisl convallis luctus. Proin libero est, ultrices et arcu eu, fringilla auctor enim. Proin laoreet erat mattis mi commodo, id commodo nibh scelerisque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et mauris eu odio cursus porttitor vel interdum erat. Morbi vulputate nulla sit amet magna suscipit, ultrices viverra leo posuere.<br><br></h6></div>
