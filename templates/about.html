@@ -31,16 +31,13 @@
 <div class="container">
     <div class="row">
         <!-- PROJECT DESCRIPTION SECTION -->
-        <div class="col-12" id="project-description-section"><h2 class="centered">Project description</h2><hr></div>
-        <div class="col-12"><h6 class="article thin">&emsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum faucibus at libero sed efficitur. Nunc eros eros, feugiat eget consectetur et, vehicula id libero. Nunc fermentum magna neque, sit amet sollicitudin ex cursus quis. Cras sit amet enim tincidunt, rhoncus justo ac, consequat ante. Nullam vel vulputate tellus. Sed sagittis nisl sit amet eros consequat porta. Quisque placerat ligula nisi, et maximus odio laoreet non. Vivamus ac auctor nisi. <br>
-            &emsp;Duis et odio erat. Pellentesque et velit pharetra, lacinia odio vitae, commodo nulla. Nunc fermentum molestie sem, ut bibendum lorem condimentum quis. Duis finibus lacinia ante. In bibendum elementum volutpat. Maecenas ultrices vehicula sapien, a lacinia nisl convallis luctus. Proin libero est, ultrices et arcu eu, fringilla auctor enim. Proin laoreet erat mattis mi commodo, id commodo nibh scelerisque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et mauris eu odio cursus porttitor vel interdum erat. Morbi vulputate nulla sit amet magna suscipit, ultrices viverra leo posuere.
-        </h6><br><br></div>
+        <div class="col-12" id="project-description-section"><h2 class="centered">Project Description</h2><hr></div>
+        <div class="col-12"><h6 class="article thin">&emsp;Our project is a machine learning exercise in which we used a Naïve Bayes classification model to determine whether a news article is considered a reliable source of information. We utilized Natural Language Processing, Naïve Bayes & Confusion Matrix to build our model to predict these news sources as “unreliable” or “reliable”. Using Naïve Bayes, we determined which words in these articles were more commonly found in unreliable versus reliable, this was the base for our model to make predictions. We utilized WordCloud to visualize the words used in the determined “unreliable” and “reliable” articles to see which topics are common targets of both determinations. Related pairs of words can also be used in scatterplots to show relationships between frequencies and the division between determined “reliable” and “unreliable” articles in the dataset. Our website features a user input search bar on our home page in which you can input your own article to determine whether it is a reliable information source.</h6><br></div>
         
         
         <!-- NAÏVE BAYES SECTION -->
         <div class="col-12" id="naive-bayes-section"><h2 class="centered">Naïve Bayes Model</h2><hr></div>
-        <div class="col-12"><h6 class="article thin">&emsp;Naïve Bayes is a supervised machine learning classifier. Naïve Bayes is notedfor being a fast algorithm and being fairly accurate with predicting outcomes but works very well predicting natural language processing (NLP) problems, our project is a NLP problem. We used Naïve Bayes to predict whether or not a news article can be classified as “reliable” or “unreliable” based on certain texts pertaining to their respective “tag words”. Naïve Bayes combines both probability and Bayes’ Theorem to predict the outcome of a text, then categorizes it to a tag word. A good example of Naïve Bayes classification is categorizing emails into “Primary” or “Spam” inboxes based on the text of the email. To put Naïve Bayes simply, “tag words” is synonymous with “categories” and we are trying to decipher snippets of text that can be put into these categories. For the texts, we used the title of the article, the body of the article and a combination of both the title and body of the article to explore the different outcomes and accuracy.</h6>
-        </div><br><br>
+        <div class="col-12"><h6 class="article thin">&emsp;Naïve Bayes is a supervised machine learning classifier. Naïve Bayes is notedfor being a fast algorithm and being fairly accurate with predicting outcomes but works very well predicting natural language processing (NLP) problems, our project is a NLP problem. We used Naïve Bayes to predict whether or not a news article can be classified as “reliable” or “unreliable” based on certain texts pertaining to their respective “tag words”. Naïve Bayes combines both probability and Bayes’ Theorem to predict the outcome of a text, then categorizes it to a tag word. A good example of Naïve Bayes classification is categorizing emails into “Primary” or “Spam” inboxes based on the text of the email. To put Naïve Bayes simply, “tag words” is synonymous with “categories” and we are trying to decipher snippets of text that can be put into these categories. For the texts, we used the title of the article, the body of the article and a combination of both the title and body of the article to explore the different outcomes and accuracy.</h6><br></div>
 
             <!-- MATRIX SECTION -->
         <div class="col-12" id="matrix-section"><h2 class="centered">Confusion Matrix</h2><hr></div>
@@ -49,9 +46,9 @@
                 <li>True Positives (TP): News articles we predicted as “reliable” and they turned out to be “reliable”</li>
                 <li>True Negatives (TN): News articles we predicted as “unreliable” and they turned out to be “unreliable”</li>
                 <li>False Positives (FP): News articles we predicted as “reliable” and they turned out to be “unreliable”</li>
-                <li>False negatives (FN): News articles we predicted as “unreliable” and they turned out to be “reliable”</li>
+                <li>False Negatives (FN): News articles we predicted as “unreliable” and they turned out to be “reliable”</li>
             </ul>
-            <br><br></h6>
+            </h6>
         </div>
 
         <div class="col-md-6">
@@ -62,14 +59,20 @@
                 <img class="centered-img-sbs" src="../static/assets/testdata-matrix.jpg" alt="test data matrix">
                 <h5 class="centered padding">Matrix : Test Data</h5>
         </div>
-        
+
         <div class="col-md-12">
+            <br>
             <img class="centered-img padding" src="../static/assets/matrix-desc.jpg" alt="matrix description">
         </div>
 
-        <div class="col-12"><h6 class="article thin">&emsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum faucibus at libero sed efficitur. Nunc eros eros, feugiat eget consectetur et, vehicula id libero. Nunc fermentum magna neque, sit amet sollicitudin ex cursus quis. Cras sit amet enim tincidunt, rhoncus justo ac, consequat ante. Nullam vel vulputate tellus. Sed sagittis nisl sit amet eros consequat porta. Quisque placerat ligula nisi, et maximus odio laoreet non. Vivamus ac auctor nisi. <br>
-                &emsp;Duis et odio erat. Pellentesque et velit pharetra, lacinia odio vitae, commodo nulla. Nunc fermentum molestie sem, ut bibendum lorem condimentum quis. Duis finibus lacinia ante. In bibendum elementum volutpat. Maecenas ultrices vehicula sapien, a lacinia nisl convallis luctus. Proin libero est, ultrices et arcu eu, fringilla auctor enim. Proin laoreet erat mattis mi commodo, id commodo nibh scelerisque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et mauris eu odio cursus porttitor vel interdum erat. Morbi vulputate nulla sit amet magna suscipit, ultrices viverra leo posuere.
-                <br><br></h6></div>
+        <div class="col-12"><h6 class="article thin"><br>&emsp;Following the training data, the model correctly identified 7,300 “reliable” and 5,500 “unreliable” news items out of approximately 12,518 in the set.  With the test data, the model predicted 3,100 “reliable” and 2,100 “unreliable” news items out of approximately 5,500 in the set.<br><br>
+            <ul>
+                <li>Precision: 99% of predictions of “unreliable” news were accurate, while 92% of predictions of “reliable” news were accurate.<br></li>
+                <li>Recall: 99% of “reliable” items were correctly predicted, while 89% of “unreliable” items were correctly predicted.<br></li>
+                <li>F1 Score: The harmonic average of Precision and Recall provided an F1 Score of 95%.<br></li>
+                <li>Accuracy: Overall, 95% of the predictions made were correct.</li>
+            </ul>
+                    <br></h6></div>
 
         <!-- VISUALIZING SECTION -->
         <div class="col-12" id="word-cloud-section"><h2 class="centered">Visualizing the Data</h2><hr></div>
@@ -85,7 +88,7 @@
 
         <div class="col-12">
             <br><br>
-            <h4 class="centered">Data</h4>
+            <h3 class="centered">Data</h3>
             <hr>
             <h6 class="centered"><a style="color: rgb(11, 135, 207)" href="https://www.kaggle.com/c/fake-news/data" target="_blank">kaggle.com | FAKE-NEWS</a></h6>
             <hr>
