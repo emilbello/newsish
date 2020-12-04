@@ -1,5 +1,5 @@
 import joblib
-
+print('***** /\/\/\/\/\ run_model.py running /\/\/\/\/\*****')
 # loading the model
 print('loading model')
 joblib_file = open('News_ish.pkl', 'rb')
