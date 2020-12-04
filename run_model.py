@@ -1,11 +1,25 @@
-import joblib
+# import joblib
+
+import pickle
+
 print('***** /\/\/\/\/\ run_model.py running /\/\/\/\/\*****')
-# loading the model
+
+# Using Pickle
 print('loading model')
 joblib_file = open('News_ish.pkl', 'rb')
-loaded_model = joblib.load(joblib_file)
+loaded_model = pickle.load(joblib_file)
 
 #loading the vectorizer
 print('loading vectorizer')
 joblib_vector_file = open('vectorizer.pkl', 'rb')
-loaded_vectorizer = joblib.load(joblib_vector_file)
+loaded_vectorizer = pickle.load(joblib_vector_file)
+
+# # loading the model
+# print('loading model')
+# joblib_file = open('News_ish.pkl', 'rb')
+# loaded_model = joblib.load(joblib_file)
+
+# #loading the vectorizer
+# print('loading vectorizer')
+# joblib_vector_file = open('vectorizer.pkl', 'rb')
+# loaded_vectorizer = joblib.load(joblib_vector_file)
