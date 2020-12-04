@@ -6,10 +6,12 @@ from flask import request
 import joblib
 from nltk.corpus import stopwords
 
+print('This is app.py')
+
 # loading the model
-# print('loading model')
-# joblib_file = "News_ish.pkl"
-# loaded_model = joblib.load(joblib_file)
+print('loading model')
+joblib_file = "News_ish.pkl"
+loaded_model = joblib.load(joblib_file)
 
 #loading the vectorizer
 print('loading vectorizer')
@@ -65,8 +67,8 @@ def run_model():
     list_test = [message_stop_words_removed]
     # classify reliable or unreliable
     vectorized_text = loaded_vectorizer.transform(list_test)
-    # result = loaded_model.predict(vectorized_text)
-    result = [0]
+    result = loaded_model.predict(vectorized_text)
+    # result = [0]
 
     reliability = " "
     gifpath = " "
