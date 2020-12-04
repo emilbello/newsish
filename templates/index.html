@@ -41,11 +41,11 @@
         <!-- USER INPUT SECTION -->
         <div class="col-6">
             <h1 class="centered">IS YOUR NEWS RELIABLE?</h1>
-            <p class="centered">Inuput your own news article below</p>
+            <p class="centered">Input article text below</p>
             <hr>
 
               <form action ="{{url_for('run_model')}}" method= "post">
-                <input type ="text" name = "user_input"  placeholder = "user_input" required = "required" class="form-style"/>
+                <input type ="text" name = "user_input"  placeholder = "Article Text" required = "required" class="form-style"/>
                 <button type ="submit" class ="btn padding" id="submit-btn"> Submit</button>
               </form>
     
