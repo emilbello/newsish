@@ -6,13 +6,15 @@ _Allan Hunt_ <br>
 _Alex Mogren_ <br>
 _Matt Mead_
 
+**TO RUN MODEL LOCALLY**
+
+[CLICK HERE FOR INSTRUCTIONS ON RUNNING MODEL LOCALLY](#run-model-locally)
+
 **Machine Learning Project Overview | Fake News Detector :**
 
 Using natural language processing and Naive Bayes, this project will analyze a dataset of news articles that have been labeled as ‘unreliable’ or ‘reliable’ and build a model to predict **_reliability_**.
 
-The website will, in addition to describing the methodologies, utilize WordCloud to visualize the words used in determined ‘unreliable’ and 'reliable' articles to see which topics are common targets of both determinations. Related pairs of words can also be used in scatterplots to show relationships between frequencies and the division between determined ‘reliable’ and ‘unreliable’ articles in the dataset.
-
-The site will be able to take user input to run through the machine learning model to determine if it would be considered 'reliable' and 'unreliable' - being visualized by a meter.
+_Our project is a machine learning exercise in which we used a Naïve Bayes classification model to determine whether a news article is considered a reliable source of information. We utilized Naïve Bayes to build our model to predict these news sources as “unreliable” or “reliable”. Using Naïve Bayes, we determined which words in these articles were more commonly found in unreliable versus reliable, this was the base for our model to make predictions. Our website features a user input search bar on our home page in which you can input your own article to determine whether it is a reliable information source._
 
 **Dataset :** 
 
@@ -22,16 +24,38 @@ The dataset we've selected is from an _InClass Prediction Competition_ found on 
 
 **Naive Bayes**
 
-_Describe the model we used and why "We used the Naive Bayes model using Title, Text, and both Title and Text together to explore the different outcomes and accuracy..."_
-
-**Random Forest**
-
-_We used this one as well_
-
-**Combining Models and making the prediction weighing both models**
-
-_Because both models gave some higher percentage of accuracy, we were able to check against each model to make our final prediction, or something_
+_Naïve Bayes is a supervised machine learning classifier. Naïve Bayes is noted for being a fast algorithm and being fairly accurate with predicting outcomes and works very well predicting natural language processing (NLP) problems, our project is a NLP problem. We used Naïve Bayes to predict whether or not a news article can be classified as “reliable” or “unreliable” based on certain texts pertaining to their respective “tag words”. Naïve Bayes combines both probability and Bayes’ Theorem to predict the outcome of a text, then categorizes it to a tag word. A good example of Naïve Bayes classification is categorizing emails into “Primary” or “Spam” inboxes based on the text of the email. To put Naïve Bayes simply, “tag words” is synonymous with “categories” and we are trying to decipher snippets of text that can be put into these categories. For the texts, we used the title of the article, the body of the article and a combination of both the title and body of the article to explore the different outcomes and accuracy._
 
 # Analysis
 
 _This is where we can add our analysis_
+
+# Run Model Locally
+
+To run this model on your local server follow these instructions:
+
+1. Create your virutal environment:
+
+    a. Open a GitBash or Terminal window
+    
+    b. conda create -n newsish python=3.6
+
+    c. source activate newsish
+
+    d. conda install pip
+
+    e. pip install pandas
+
+    f. pip install flask
+
+    g. pip install joblib
+
+    h. pip install -U scikit-learn
+
+    i. Close the GitBash or Terminal window
+
+    
+2. Clone the news-sih repository to your computer
+3. In your new virtual environment (source activate PythonML) run : python app.py
+4. Once the program is running open a Chrome browser and go to http://127.0.0.1:5000/
+
