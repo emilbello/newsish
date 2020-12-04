@@ -7,14 +7,14 @@ import joblib
 from nltk.corpus import stopwords
 
 # loading the model
-print('loading model')
-joblib_file = "News_ish.pkl"
-loaded_model = joblib.load(joblib_file)
+# print('loading model')
+# joblib_file = "News_ish.pkl"
+# loaded_model = joblib.load(joblib_file)
 
 #loading the vectorizer
-print('loading vectorizer')
-joblib_vector_file = "vectorizer.pkl"
-loaded_vectorizer = joblib.load(joblib_vector_file)
+# print('loading vectorizer')
+# joblib_vector_file = "vectorizer.pkl"
+# loaded_vectorizer = joblib.load(joblib_vector_file)
 
 # Instantiate the Flask application. (Chocolate cake recipe.)
 # This statement is required for Flask to do its job. 
@@ -64,8 +64,8 @@ def run_model():
     # convert the whole text to list
     list_test = [message_stop_words_removed]
     # classify reliable or unreliable
-    result = loaded_model.predict(loaded_vectorizer.transform(list_test))
-
+    # result = loaded_model.predict(loaded_vectorizer.transform(list_test))
+    result = [0]
     reliability = " "
     gifpath = " "
     
