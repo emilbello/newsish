@@ -4,8 +4,8 @@ from flask import render_template
 from flask import jsonify
 from flask import request
 import joblib
-from nltk.corpus import stopwords
 
+# Show a start-up message
 print('This is app.py')
 
 # loading the model
@@ -52,19 +52,29 @@ def run_model():
     
     # removing possesives and contractions
     message = message.replace("'s","")
+
     # replacing '\n' with blank space
     message = message.replace('\n',' ')
+
     # removing special characters (regex)
     message_nochar = ''.join((filter(lambda i: i not in bad_char, message)))
+
     # # removing leading and trailing spaces
     message_nospace = message_nochar.strip()
-    # # split (tokenization)
-    message_pp = message_nospace.split()
-    # remove stopwords and join back into string space-separated
-    stop_words = [w for w in message_pp if w not in stopwords.words('english')]
-    message_stop_words_removed = ' '.join(stop_words)
+
+    # Tokenization and stop-words removal are now handled by the 
+    # saved vectorizer. The following blocks can be removed.
+
+    # # # split (tokenization)
+    # message_pp = message_nospace.split()
+
+    # # remove stopwords and join back into string space-separated
+    # stop_words = [w for w in message_pp if w not in stopwords.words('english')]
+    # message_stop_words_removed = ' '.join(stop_words)
+
     # convert the whole text to list
-    list_test = [message_stop_words_removed]
+    list_test = [message_nospace] # Changed this because we no longer need to tokenize or remove stop words. 
+
     # classify reliable or unreliable
     vectorized_text = loaded_vectorizer.transform(list_test)
     result = loaded_model.predict(vectorized_text)
