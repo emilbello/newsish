@@ -55,11 +55,11 @@
 
         <!-- NAÏVE BAYES SECTION -->
         <div class="col-12" id="naive-bayes-section"><h2 class="centered">Naïve Bayes Model</h2><hr></div>
-        <div class="col-12"><h6 class="article thin">&emsp;Naïve Bayes is a supervised machine learning classifier. Naïve Bayes is notedfor being a fast algorithm and being fairly accurate with predicting outcomes but works very well predicting natural language processing (NLP) problems, our project is a NLP problem. We used Naïve Bayes to predict whether or not a news article can be classified as “reliable” or “unreliable” based on certain texts pertaining to their respective “tag words”. Naïve Bayes combines both probability and Bayes’ Theorem to predict the outcome of a text, then categorizes it to a tag word. A good example of Naïve Bayes classification is categorizing emails into “Primary” or “Spam” inboxes based on the text of the email. To put Naïve Bayes simply, “tag words” is synonymous with “categories” and we are trying to decipher snippets of text that can be put into these categories. For the texts, we used the title of the article, the body of the article and a combination of both the title and body of the article to explore the different outcomes and accuracy.</h6><br></div>
+        <div class="col-12"><h6 class="article thin">&emsp;Naïve Bayes is a supervised machine learning classifier. Naïve Bayes is noted for being a fast algorithm and being fairly accurate with predicting outcomes but works very well predicting natural language processing (NLP) problems, our project is a NLP problem. We used Naïve Bayes to predict whether or not a news article can be classified as “reliable” or “unreliable” based on certain texts pertaining to their respective “tag words”. Naïve Bayes combines both probability and Bayes’ Theorem to predict the outcome of a text, then categorizes it to a tag word. A good example of Naïve Bayes classification is categorizing emails into “Primary” or “Spam” inboxes based on the text of the email. To put Naïve Bayes simply, “tag words” is synonymous with “categories” and we are trying to decipher snippets of text that can be put into these categories. For the texts, we used the title of the article, the body of the article and a combination of both the title and body of the article to explore the different outcomes and accuracy.</h6><br></div>
         <div class="col-12"><h6 class="centered"><a href="about.html#top">BACK TO TOP</a><br><br></h6></div>
 
             <!-- MATRIX SECTION -->
-        <div class="col-12" id="matrix-section"><h2 class="centered">Confusion Matrix</h2><hr></div>
+        <div class="col-12" id="matrix-section"><h2 class="centered">Confusion Matrix & Classification Report</h2><hr></div>
         <div class="col-12"><h6 class="article thin">A confusion matrix is a way of testing the performance of a classification algorithm, in our case, we used the confusion matrix to summarize whether our Naïve Bayes classification was performing the way we wanted. We know that from our dataset that there are two classes: “reliable” and “unreliable”, so we used the confusion matrix for a binary classifier, as there are only two predicted classes. Since there are two classes for our project, the 4 quadrants of the confusion matrix model are as follows: True Positives (TP), True Negatives (TN), False Positives (FP) & False Negatives (FN). <br><br> The quadrants are described as: 
             <ul>
                 <li>True Positives (TP): News articles we predicted as “reliable” and they turned out to be “reliable”</li>
@@ -92,16 +92,16 @@
                 <li>Accuracy: Overall, 95% of the predictions made were correct.</li>
             </ul>
                     <br></h6></div>
-        <div class="col-12"><h6 class="centered"><a href="about.html#top">BACK TO TOP</a><br><br></h6></div>
+        <div class="col-12"><h6 class="centered"><a href="about.html#top">BACK TO TOP</a><br><br><br></h6></div>
 
         <!-- NEXT STEPS SECTION -->
-        <div class="col-12" id="word-cloud-section"><h2 class="centered">Next Steps</h2><hr></div>
+        <div class="col-12" id="word-cloud-section"><h2 class="centered">Analysis</h2><hr></div>
+        <div class="col-12"><h6 class="article thin"><br>&emsp;After building and running our model - the percentage of accuracy was very high (~95% accurate). While scoring high, we realized that the model was more accurately to be described as a 'spam filter', rather - a text is "reliable" if it comes from a source that is able to type in full sentences and use words associated with being "reliable" according to the model. As "reliable" and "unrealiable" are often associate with "real" and "fake" - we must point out that this model is not intended to reveal if something is "real" or not, as a statement at one point in time might be false, and a moment later be "real" or "true". A computer model cannot decipher "reality"... yet.
+                    <br><br></h6></div>
         <div class="col-12"><h6 class="centered"><a href="about.html#top">BACK TO TOP</a><br><br></h6></div>
         
-        
-
         <div class="col-12">
-            <br><br>
+            <br>
             <h3 class="centered">Data</h3>
             <hr>
             <h6 class="centered"><a style="color: rgb(11, 135, 207)" href="https://www.kaggle.com/c/fake-news/data" target="_blank">kaggle.com | FAKE-NEWS</a></h6>
