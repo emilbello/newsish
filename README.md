@@ -48,11 +48,9 @@ To run this model on your local server follow these instructions:
 
     f. pip install flask
 
-    g. pip install joblib
+    g. pip install -U scikit-learn
 
-    h. pip install -U scikit-learn
-
-    i. Close the GitBash or Terminal window
+    h. Close the GitBash or Terminal window
 
     
 2. Clone the news-ish repository to your computer
