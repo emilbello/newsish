@@ -56,6 +56,8 @@ To run this model on your local server follow these instructions:
 
     
 2. Clone the news-ish repository to your computer
-3. In your new virtual environment (source activate newsish) run : python app.py
-4. Once the program is running open a Chrome browser and go to http://127.0.0.1:5000/
+3. Right click the news-ish folder and Open a GitBash or Terminal window
+4. source activate newsish
+5. python app.py
+6. Once the program is running open a Chrome browser and go to http://127.0.0.1:5000/
 

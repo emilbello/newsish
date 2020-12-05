@@ -4,20 +4,20 @@ from flask import render_template
 from flask import jsonify
 from flask import request
 import joblib
-import run_model #Testing running model from another .py
+# import run_model #Testing running model from another .py
 
 # Show a start-up message
 print('This is app.py')
 
-# # loading the model
-# print('loading model')
-# joblib_file = "News_ish.pkl"
-# loaded_model = joblib.load(joblib_file)
+# loading the model
+print('loading model')
+joblib_file = "News_ish.pkl"
+loaded_model = joblib.load(joblib_file)
 
-# #loading the vectorizer
-# print('loading vectorizer')
-# joblib_vector_file = "vectorizer.pkl"
-# loaded_vectorizer = joblib.load(joblib_vector_file)
+#loading the vectorizer
+print('loading vectorizer')
+joblib_vector_file = "vectorizer.pkl"
+loaded_vectorizer = joblib.load(joblib_vector_file)
 
 
 
