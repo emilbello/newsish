@@ -20,7 +20,7 @@ _Our project is a machine learning exercise in which we used a Naïve Bayes clas
 
 The dataset we've selected is from an _InClass Prediction Competition_ found on [Kaggle.com](https://www.kaggle.com/c/fake-news/data) with 20k+ datapoints. The models attempted were borrowed from those submissions as well as examples from the **_University of Minnesota Data and Visualization Bootcamp 2020_**.
 
-# Models
+# Model
 
 **Naive Bayes**
 
@@ -28,7 +28,7 @@ _Naïve Bayes is a supervised machine learning classifier. Naïve Bayes is noted
 
 # Analysis
 
-_This is where we can add our analysis_
+_After building and running our model - the percentage of accuracy was very high (~95% accurate). While scoring high, we realized that the model was more accurately to be described as a 'spam filter', rather - a text is "reliable" if it comes from a source that is able to type in full sentences and use words associated with being "reliable" according to the model. As "reliable" and "unrealiable" are often associate with "real" and "fake" - we must point out that this model is not intended to reveal if something is "real" or not, as a statement at one point in time might be false, and a moment later be "real" or "true". A computer model cannot decipher "reality"... yet._
 
 # Run Model Locally
 
