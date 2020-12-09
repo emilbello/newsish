@@ -1,5 +1,7 @@
 # News-ish
 
+Click [HERE](https://mmeadx.github.io/newsish/index.html) for a site describing our project.
+
 **Team Members :** <br>
 _Emilio Bello_ <br>
 _Allan Hunt_ <br>
