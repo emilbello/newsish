@@ -1,6 +1,8 @@
 # News-ish
 
-Click [HERE](https://mmeadx.github.io/newsish/index.html) for a site describing our project.
+How to determine if a news article is reliable or no? This project aims to answer that question by using Natural Language Processing to detect unreliable news. The model was trained with a labeled data set from Kaggle. The Python library used was Scikit-Learn. The results show high accuracy. However, the number of Type II errors showed that there is still room for improvement.
+
+Click [HERE](https://mmeadx.github.io/newsish/index.html) for a site with more details on this project.
 
 **Team Members :** <br>
 _Emilio Bello_ <br>
