@@ -1,6 +1,6 @@
 # News-ish
 
-How to determine if a news article is reliable or no? This project aims to answer that question by using Natural Language Processing to detect unreliable news. The model was trained with a labeled data set from Kaggle. The Python library used was Scikit-Learn. The results showed high accuracy. However, the number of Type II errors showed that there is still room for improvement.
+How to determine if a news article is reliable or no? This project aims to answer that question by using Natural Language Processing to detect unreliable news. The model was trained with a labeled data set from Kaggle. Python is the main language used and scikit-learn library for the ML model. The results showed high accuracy. However, the number of Type II errors indicate that there is still room for improvement.
 
 Click [HERE](https://emilbello.github.io/newsish/) for a site with more details on this project.
 
